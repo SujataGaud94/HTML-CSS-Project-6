@@ -1,0 +1,482 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+/* HEADER */
+
+
+header{
+    background: url('./asset/mainBackground.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+    position: relative;
+
+}
+
+
+/* HEADER - NAVIGATION BAR */
+nav{
+    display:flex ;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+nav img{
+    height:50px ;
+    width:120px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 20px;
+    color: white;
+}
+hr{
+    margin: 0 110px;
+}
+
+
+/* HEADER - DIV */
+header div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 200px;
+    margin-top: 80px;
+    color: white;
+
+}
+
+header div h1{
+    font-size: 78px;
+    margin-bottom: 30px;
+}
+
+header div p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+header div button{
+    padding: 10px 30px;
+    background-color:rgb(104, 95, 227);
+    border-radius: 42px;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    border: none;
+    
+}
+
+
+/* 5 Logos */
+.Logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    margin: 0 35px;
+    height: 200px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 100px;
+}
+
+.Logos img{
+    height: 40px;
+    width: 160px;
+}
+
+/* 9 CARD */
+.cardWrapperBox h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 0.2em;
+}
+
+.cardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+/* card images */
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-basis: 30%;
+}
+
+/* height and width of images */
+.card img{
+    width: 370px;
+    height: 400px;
+    border-radius: 25px;
+}
+
+/* margin top to position cards */
+
+.cardWrapper div:nth-child(2){
+    margin-top: 50px;
+}
+
+.cardWrapper div:nth-child(3){
+    margin-top: 100px;
+}
+
+.cardWrapper div:nth-child(4){
+    margin-top: 150px;
+}
+
+.cardWrapper div:nth-child(5){
+    margin-top: 100px;
+}
+
+.cardWrapper div:nth-child(6){
+    margin-top: 50px;
+}
+
+.cardWrapper div:nth-child(7){
+    margin-top: 50px;
+}
+
+.cardWrapper div:nth-child(8){
+    margin-top: 100px;
+}
+
+.cardWrapper div:nth-child(9){
+    margin-top: 150px;
+}
+
+
+
+/* card BOX */
+.cardBox{
+    height: 120px;
+    width: 320px;
+    background-color: white;
+    border-radius: 22px;
+    position: absolute;
+    padding: 20px 25px;
+    bottom: -60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 120px rgba(58, 86, 78, 0.2);
+
+}
+
+.cardBox button{
+    height: 50px;
+    width: 120px;
+    font-weight: 800;
+    border-radius: 50px;
+    background-color: rgb(104, 95, 227);
+    border: none;
+    color: white;
+
+}
+
+
+.cardBox div h3{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.cardBox p{
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    color: rgb(104, 95, 227);;
+}
+
+
+/* For 1st Section */
+.bookingOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.bookingOne div{
+    width: 50%;
+}
+
+.First div:first-child img:first-child{
+    position: absolute;
+    left: -80px;
+    z-index: -1;
+    width: 765px;
+    height: 455px;
+}
+
+
+.First div:first-child img:last-child{
+    position:relative;
+    width: 420px;
+    height: 400px;
+    border-radius: 50px;
+    bottom: 50px;
+    left: 114px;
+}
+
+.bookingOne h1{
+    font-size: 75px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+}
+
+.bookingOne p{
+    font-style: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: rgb(92, 91, 91);
+}
+
+.bookingOne button{
+    padding: 13px 50px;
+    background-color: rgb(104, 95, 227);
+    border: none;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    border-radius: 50px;
+}
+
+/* For 2nd Section */
+.bookingTwo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.bookingTwo div{
+    width: 50%;
+}
+
+.Second div:last-child{
+    position: relative;
+}
+
+.Second div:last-child img:first-child{
+    position: absolute;
+  right: 0;
+  width: 800px;
+  height: 456px;
+  bottom: -220px;
+} 
+
+.Second  div:last-child img:last-child {
+    position: absolute;
+   
+    width: 460px;
+    height: 405px;
+    border-radius: 51px;
+    right: 135px;
+    bottom: -110px;
+  }
+
+.bookingTwo div:first-child{
+    padding: 0 50px;
+}
+
+.bookingTwo div:first-child h1{
+    width: 90%;
+}
+
+.bookingTwo h1{
+    font-size: 75px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+
+}
+
+.bookingTwo p{
+    font-style: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: rgb(92, 91, 91);
+}
+
+.bookingTwo button{
+    padding: 13px 50px;
+    background-color: rgb(104, 95, 227);
+    border: none;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    border-radius: 50px;
+}
+
+
+/*  SUBSCRIBE NEWSLETTER*/
+.Newsletter{
+    margin: 100px 70px;
+    background-color: rgb(104, 95, 227);
+    padding: 120px 0;
+    border-radius: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    text-align: center;
+}
+
+.Newsletter h1{
+    font-size: 60px;
+    font-weight: 900;
+    /* width: %; */
+}
+
+.Newsletter p{
+
+font-size: 18px;
+font-weight: 800;
+width: 50%;
+}
+
+/* form (newsletter) */
+.Newsletter form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Newsletter form div{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: 20px;
+    border-radius: 40px;
+    width: 500px;
+    height: 60px;
+    background-color: rgb(81, 74, 179);
+}
+
+.Newsletter form input{
+    background-color: transparent;
+    border: none;
+}
+
+.Newsletter form button{
+    padding: 17px 40px;
+    border-radius: 70px;
+    background-color: white;
+    color: rgb(81, 74, 179);
+    border: none;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 100px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.footerLogo{
+    width: 150px;
+}
+
+footer div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer div p{
+    font-weight: 700;
+}
+
+footer div :first-child img{
+    width: 10px;
+}
+
+footer div:first-child div img{
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+
+}
+
+footer div:first-child p{
+    width: 325px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.links{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    gap: 120px;
+
+}
+
+.pages{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pages ul li a{
+    color: black;
+}
+
+.pages ul li:first-child{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+
+footer .pages ul li{
+    margin-bottom: 25px;
+    list-style: none;
+}
+footer .pages ul li a{
+   text-decoration: none; 
+ 
+}
+
+
+
+
+
+

@@ -1,0 +1,447 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    outline: 0;
+    box-sizing: border-box;
+    color: white;
+}
+/* navigation bar */
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 ;
+}
+
+body{
+    margin: 0 15px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+
+}
+p{
+    color: beige;
+}
+
+nav img{
+    /* margin-left: 0px; */
+    width: 25px;
+    height: 25px;
+}
+nav ul{
+    display: flex;
+    margin-right: 40px;
+}
+ nav ul li{
+    margin-right: 40px;
+ }
+
+nav ul li a{
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+}
+.rightnav{
+    display: flex;
+    align-items: center;
+}
+ .rightnav button{
+   padding: 10px 35px;
+   background: rgb(31, 30, 30);
+   border-radius: 8px;
+   font-weight: 300;
+   font-size: 14px;
+   margin-right: 180px;
+ }
+
+
+
+
+/* MAIN CSS */
+main{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    position: relative;
+}
+.mainImg{
+    width: 230px;
+    position: relative;
+    top: -250px;
+    left: 70px;
+}
+.main{
+    margin-left: 185px;
+}
+
+.onEarImg {
+width: 320px;
+margin-left: 50px;
+}
+
+
+.main h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.main h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.main p{
+    font-size: 15px;
+    font-weight: 300;
+    width: 65%;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+/* MAIN - shopping bag */
+.bag{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: rgb(31, 30, 30);
+    border-radius: 8px;
+    width: fit-content;
+    padding: 10px 23px;
+}
+
+.bag img{
+    background: transparent;
+    width: 18px;
+
+}
+.bag p{
+    font-size: 16px;
+    background-color: transparent;
+    margin-bottom: 0;
+}
+.bag span{
+    background-color: transparent;
+    font-size: 18px;
+}
+
+
+/* MEDIA SECTION */
+.MediaSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+    position: relative;
+    margin-bottom: 40px;
+    top: -50px;
+}
+
+.MediaSection img{
+    scale: 0.9;
+}
+
+
+/* MAIN 2 SECTION */
+.Main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.SpecLogo, 
+.case-logo{
+    margin-bottom: 15px;
+    scale: 0.8;
+}
+
+.specs{
+    display: flex;
+}
+.specs img{
+    scale: 0.8;
+}
+
+.specsimgs div{
+margin-bottom: 20px;
+}
+
+
+.specsimgs div img{
+    scale: 0.9; 
+}
+
+.specsimgs div p{
+    font-size: 14px;
+}
+
+.specsimgs div p:last-child {
+font-size: 10px;
+margin-top: 5px;
+width: 70px;
+
+}
+.specsimgs div:first-child, .specsimgs div:last-child{
+    margin-left: 30px;
+}
+
+/* CASE SECTION */
+.Case{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.caseitems{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.CaseImg{
+    scale: 0.8;
+}
+
+/* .caseitems div{
+    width: 20px;
+} */
+
+.caseitems div p:first-child{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.caseitems div p:last-child img{
+    background-color: transparent;
+    scale: 0.8;
+}
+
+.caseitems div p:last-child{
+    width:fit-content ;
+    background: rgb(31, 30, 30);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-size: 12px;
+    padding: 10px 20px;
+    
+}
+
+/* BUY NOW SECTION */
+.Buy-Now{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(31, 30, 30);
+    border-radius: 12px;
+    padding: 45px 0;
+    margin-top: 70px;
+    gap: 50px;
+    width: 70%;
+    margin-left: 15%;
+}
+.Buy-Now div, .Buy-Now h2, .Buy-Now p, .Buy-Now img{
+    background: transparent;
+}
+.Buy-Now div{
+    width: 20%;
+}
+.Buy-Now div h2{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 18px;
+   
+ 
+}
+.Buy-Now div p{
+    font-size: 12px ;
+    margin-bottom: 15px;
+}
+.Buy-Now div div{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 10px 25px;
+    background: black;
+    border-radius: 8px;
+}
+.Buy-Now div div img{
+    margin-right: 10px;
+    scale: 0.8;
+}
+.Buy-Now div div p{
+    font-size: 12px;
+    margin-bottom: 0;
+
+}
+
+/* BEAT CARD */
+.products{
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+}
+.ProdLogo{
+    display: flex;
+    flex-direction: column;
+    scale: 0.3;
+    
+}
+.productItems{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 140px;
+    padding-left: 200px;
+}
+
+.prodCard{
+    position: relative;
+    height: 180px;
+    width: 180px;
+    background: rgb(31, 30, 30);
+    border-radius: 8px;
+}
+
+.productImg{
+    width: 90px;
+    height: 130px;
+    position: absolute;
+    z-index: 100;
+    top: -55px;
+  left: 28px;
+  
+}
+.productImg, .prodCard p, .prodCard span, .prodCard img, .prodCard div{
+    background-color: transparent;
+}
+
+.ProdInfo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position:absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 10px 15px;
+}
+
+.ProdInfo P{
+    font-size: 18px;
+}
+
+.ProdInfo div{
+    background: #0a0a0b;
+  border-radius: 8px;
+  padding: 2px 6px;
+}
+
+.ProdInfo div img{
+    width: 15px;
+    height: 15px;
+}
+
+
+/* FOOTER PART */
+footer{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footerLogo{
+    margin-left: 130px;
+    scale: 0.8;
+}
+ul li a{
+    font-size: 14px;
+}
+
+ul li:first-child a{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 35px;
+   
+}
+
+ul li:first-child{
+    margin-bottom: 20px;
+    
+}
+ul li{
+    margin-bottom: 10px;
+}
+
+.footerSubscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footerSubscribe div:first-child{
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: flex;
+    background: rgb(31, 30, 30);
+    /* margin-top: 40px; */
+}
+.footerSubscribe div:first-child input{
+    border: none;
+    background-color: transparent;
+}
+
+.subscribeButton{
+    display: flex;
+    align-items: center;
+    background: rgb(31, 30, 30);
+    gap: 10px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    
+}
+
+.subscribeButton img{
+    scale: 0.8;
+}
+
+.subscribeButton p{
+    font-size: 14px;
+}
+
+.footerSubscribe div:last-child img{
+    scale: 0.8;
+
+    margin-right: 10px;
+    /* margin-bottom: 40px; */
+}
+
+.upArrow{
+    position: absolute;
+    right: -5px;
+    scale: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+

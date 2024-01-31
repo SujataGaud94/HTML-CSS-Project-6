@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body{
+    background-color: rgba(240, 239, 239, 0.724) ;
+    max-width: 1440px ;
+    overflow: hidden;
+    margin: auto;
+}
+
+/* Nav Bar */
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+nav img{
+    width: 150px;
+}
+
+/* Nav menues */
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 60px;
+    font-weight: 600;
+}
+
+nav ul li:first-child{
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Main Section */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 0 5%;
+}
+
+.hospitalAbout{
+    width: 50%;
+    text-align: center;
+}
+
+.hospitalAbout h1{
+    font-size: 25px;
+    color: #20BC7E;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.hospitalAbout p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Desingning Cards  */
+.strength{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-top: 50px;
+}
+
+.card{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px black;
+    border-radius: 12px;
+}
+
+.card span{
+    font-size: 25px;
+    font-weight: 700;
+    color: #20BC7E; ;
+}
+
+.card p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
